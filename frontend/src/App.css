@@ -1,0 +1,55 @@
+.acciones-producto {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+  flex-wrap: wrap;
+}
+
+.acciones-producto button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.acciones-producto button:nth-child(2) {
+  background-color: #f59e0b;
+  color: white;
+}
+
+.acciones-producto button:nth-child(3) {
+  background-color: #dc2626;
+  color: white;
+}
+
+.acciones-producto button:hover {
+  opacity: 0.9;
+}
+
+form {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+}
+
+form input {
+  padding: 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+}
+
+form button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  background-color: #1d3557;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #457b9d;
+}
